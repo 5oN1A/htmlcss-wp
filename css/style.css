@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    font-family: 'Montserrat', sans-serif;}
 
 .row::after {
     content: "";
@@ -12,12 +12,9 @@
     clear: both;
 }
 
-/*ELEMENTS*/
+/************LAYOUT**************/
 
-header {
-    height: 100px;
-    background-color: #e478e5;
-}
+/*ELEMENTS*/
 
 footer {
     height: 50px;
@@ -61,5 +58,30 @@ footer {
     margin: 0px 15px 15px;
 }
 
+/***************CONTENUTO**********/
 
+.logo {
+    width: 130px;
+    border-right: 1px solid lightgray;
+    padding-right: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: -3px;
+}
+  
+  nav ul li {
+    display: inline-block;
+}
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 0 3px;
+    text-decoration: none;
+    color: #d0d0d0;
+    font-size: 12px;
+    font-weight: 400;
+}
 
