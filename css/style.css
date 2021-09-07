@@ -6,11 +6,7 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;}
 
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
 
 .darker-img::after {
     content: "";
@@ -24,35 +20,17 @@
 
 /************LAYOUT**************/
 
-/*ELEMENTS*/
 
-footer.container {
-    height: 50px;
-    background-color: #8240FE;
-    margin-top: 20px;
-}
 
-/*CLASSES*/
+
 
 .container {
     width: 920px;
     margin: 0px auto;
 }
 
-.col { 
-    width: 20%;
-    height: 350px;
-    background-color: #abcfe7;
-    margin-bottom: 15px;
-    float: left;
-}
 
-.col.center {
-    width: calc(60% - (15px * 2));
-    margin: 0px 15px 15px;
-}
 
-/***************CONTENUTO**********/
 
 .logo {
     width: 130px;
@@ -128,15 +106,55 @@ h1 {
     font-weight: 500;
 }
 
+.col { 
+    width: 20%;;
+    float: left;
+}
+
+.col.center {
+    width: calc(60% - (15px * 2));
+    margin: 0 15px;
+}
+
 .contenitore-immagine {
-    height: 300px;
+    width: 100%;
+    height: 160px;
 }
 
 .img-col{
     width: 100%;
+    height: 100%;
     border-radius: 15px;
     object-fit: cover;
 }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h6 {
+    line-height: 30px;
+    font-size: 12px;
+    color: #989898;
+    font-weight: 800;
+}
+
+footer.container {
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.footer-text {
+    margin: auto;
+}
+footer p {
+    font-size: 12px;
+    margin: auto;
+}
+
 
 
 
