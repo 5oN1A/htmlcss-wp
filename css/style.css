@@ -12,11 +12,21 @@
     clear: both;
 }
 
+.darker-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 /************LAYOUT**************/
 
 /*ELEMENTS*/
 
-footer {
+footer.container {
     height: 50px;
     background-color: #8240FE;
     margin-top: 20px;
@@ -103,10 +113,14 @@ nav ul {
 .hero-title {
     font-size: 18px;
     font-weight: 400;
+    color: white;
 }
 
 .hero-paragraph {
     font-size: 12px;
     font-weight: 300;
+    color: white;
 }
+
+
 
