@@ -155,16 +155,21 @@ h6 {
     font-weight: 800;
 }
 
-footer.container {
+footer {
     height: 50px;
     margin-top: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
 }
-.
+
 footer p {
     font-size: 12px;
-    margin: auto;
+    text-align: center;
+}
+
+.love {
+    font-size: 20px;
+    color: red;
 }
 
 
