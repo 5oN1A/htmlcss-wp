@@ -1,0 +1,65 @@
+/**RESET**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*ELEMENTS*/
+
+header {
+    height: 100px;
+    background-color: #e478e5;
+}
+
+footer {
+    height: 50px;
+    background-color: #8240FE;
+    margin-top: 20px;
+}
+
+/*CLASSES*/
+
+.container {
+    width: 920px;
+    margin: auto;
+}
+
+.title {
+    height: 60px;
+    background-color: #abcfe7;
+    margin-bottom: 15px;
+}
+
+.hero {
+    height: 350px;
+    background-color: #e2d67a;
+    margin: 20px 0;
+}
+
+.content {
+    background-color: #0586fd;
+}
+
+.col { 
+    width: 20%;
+    height: 350px;
+    background-color: #abcfe7;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.col.center {
+    width: calc(60% - (15px * 2));
+    margin: 0px 15px 15px;
+}
+
+
+
